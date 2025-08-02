@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+header {
+  background: #002B5B;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #00509E;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero .btn {
+  background: #FFA500;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #002B5B;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.startups-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.half {
+  flex: 1;
+  min-width: 300px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.member {
+  text-align: center;
+  flex: 1;
+}
+
+.member img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+blockquote {
+  font-style: italic;
+  background: #f9f9f9;
+  padding: 20px;
+  border-left: 5px solid #00509E;
+}
+
+footer {
+  background: #002B5B;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .social a {
+  color: #FFA500;
+  margin: 0 10px;
+  text-decoration: none;
+}
